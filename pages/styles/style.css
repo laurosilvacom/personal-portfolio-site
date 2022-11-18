@@ -79,6 +79,10 @@ button:hover {
   background-color: #000b49;
   cursor: pointer;
 }
+footer {
+  margin-left: 45%;
+  margin-bottom: 40px;
+}
 .aboutbox {
   background: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
   border: 1px solid #ffffff;
@@ -86,22 +90,6 @@ button:hover {
   color: #00008b;
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
-
-.container {
-  background: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
-  border: 1px solid #ffffff;
-  border-radius: 10px;
-  color: #00008b;
-  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 15px;
-}
-
-.name {
-  color: #e8e9eb;
-}
-
 .box {
   background: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
   border: 1px solid #ffffff;
@@ -119,6 +107,36 @@ button:hover {
   justify-content: center;
 }
 
+.container {
+  background: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #00008b;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.first,
+.second,
+.third {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  margin: 40px 100px;
+}
+
+.footer {
+  grid-column: span 4;
+  text-align: center;
+}
+
 .github {
   text-decoration: none;
   color: #00008b;
@@ -132,28 +150,16 @@ button:hover {
   grid-column: span 4;
 }
 
-.first,
-.second,
-.third {
-  text-align: center;
-}
-.title {
-  margin: 20px;
-  font-weight: bolder;
-  font-size: 18px;
-  text-align: center;
+hr {
+  margin-top: 1px;
 }
 
-.footer {
-  grid-column: span 4;
-  text-align: center;
+.name {
+  color: #e8e9eb;
 }
-.flex {
-  display: flex;
-  flex-direction: column wrap;
-  justify-content: center;
+.pic {
+  margin-left: 38%;
 }
-
 .projects {
   background: #f9f9f1;
   border: 1px solid #f9f9f1;
@@ -167,6 +173,10 @@ button:hover {
   font-weight: bolder;
   margin-top: 30px;
 }
-hr {
-  margin-top: 1px;
+
+.title {
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
 }
